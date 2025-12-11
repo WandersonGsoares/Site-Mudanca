@@ -1,0 +1,258 @@
+@media (max-width: 1000px) {
+
+  /* Navbar */
+  nav.navbar {
+    min-height: 100px;
+    flex-direction: column;
+  }
+
+  /* Logo */
+  a.navbar-brand {
+    background-color: transparent;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a.navbar-brand img {
+    max-height: 100%;
+  }
+
+  /* Carousel */
+  div.carousel-item {
+    height: 40vh;
+  }
+
+  /* Menu UL */
+  #navbarSupportedContent .navbar-nav {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 !important;
+    text-align: center;
+  }
+
+  /* Itens LI */
+  #navbarSupportedContent .nav-item {
+    width: 100px !important;
+    margin: 5px 0 !important;
+  }
+
+  /* Links A */
+  #navbarSupportedContent .nav-link {
+    width: 100% !important;
+    text-align: center;
+    padding: 10px 0;
+    color: black;
+    transition: transform 0.3s, color 0.3s;
+  }
+
+  /* Hover (mobile) */
+  #navbarSupportedContent .nav-link:hover {
+    transform: scale(1.1);
+    color: var(--laranja);
+  }
+
+  /* Seção Serviços */
+#servicos {
+  padding: 40px 20px;
+  background-color: #F5F7FE;
+  text-align: center;
+}
+
+#servicos .section-title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+/* Lista de serviços - mobile first (vertical) */
+.servicos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.servico-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.servico-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.servico-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: var(--azul);
+}
+
+.servico-item p {
+  font-size: 14px;
+  color: #333333;
+}
+
+.btn-success{
+  color: black;
+  background-color: green ;
+}
+
+.btn-success:hover{
+  background-color: #0BEF35;
+  color: black;
+  transform: translateY( -3px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.video-servicos {
+  width: 100%;       /* ocupa toda a largura do container */
+  max-width: 800px;  /* limite máximo de largura */
+  height: auto;      /* mantém proporção */
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+div h2{
+  color: var(--laranja)!important;;
+  font-family:var( --font-secundaria)!important;
+
+}
+
+.sobre-section {
+  padding: 30px 20px;
+  background-color: #ffffff;
+}
+
+.sobre-section .section-title {
+  color: var(--azul);
+  font-family: var(--font-principal);
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.sobre-text {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+}
+
+
+/* ===============================
+   Seção Clientes / Cards
+=============================== */
+.clientes-section {
+  padding: 60px 20px;
+  background-color: #F5F7FE;
+}
+
+.clientes-section .section-title {
+  font-size: 32px;
+  color: var(--azul);
+  font-family: var(--font-principal);
+  margin-bottom: 10px;
+}
+
+.clientes-section .section-subtitle {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.cliente-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cliente-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.cliente-header {
+  display: flex;
+  align-items: center;
+}
+
+.cliente-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cliente-nome {
+  font-size: 14px;
+  color: var(--laranja);
+}
+
+.cliente-estrela {
+  font-size: 14px;
+  color: #FFD700; /* cor dourada para estrelas */
+}
+
+.cliente-text {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.cta-final-title{
+  margin-bottom: 50px;
+}
+
+
+.containerContato{
+    margin-bottom: 100px;
+}
+
+.titulobaixo{
+  margin-top: 50px;
+}
+
+.checklist-section {
+  display: flex;
+  justify-content: center;
+}
+
+.checklist-box {
+  background: var(--laranja);
+  padding: 25px 30px;
+  border-radius: 15px;
+  max-width: 750px;
+  width: 80%;
+  border: 1px solid #e5e5e5;
+}
+
+.check-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.check-item i {
+  color: #28a745;
+  font-size: 25px;
+}
+
+.check-item p {
+  margin: 0;
+  font-size: 18px;
+  font-family: var(--font-principal);
+}
+
+
+
+}
