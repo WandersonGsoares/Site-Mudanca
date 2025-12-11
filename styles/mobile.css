@@ -227,7 +227,7 @@ div h2{
 }
 
 .checklist-box {
-  background: var(--laranja);
+  background: var(--azul);
   padding: 25px 30px;
   border-radius: 15px;
   max-width: 750px;
@@ -240,6 +240,7 @@ div h2{
   align-items: center;
   gap: 12px;
   margin: 12px 0;
+  
 }
 
 .check-item i {
@@ -251,8 +252,76 @@ div h2{
   margin: 0;
   font-size: 18px;
   font-family: var(--font-principal);
+  color:var(--branco);
 }
 
+.tituloFinal-section h2{
+  color: var(--azul)!Important;
+}
+
+.footer-dark {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 0 25px 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-col h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: var(--laranja);
+  font-family: var(--font-secundaria);
+}
+
+.footer-col p,
+.footer-col li,
+.footer-col a {
+  font-size: 15px;
+  color: #eee;
+  font-family: var(--font-principal);
+}
+
+.footer-col ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin-bottom: 5px;
+}
+
+.footer-col a {
+  text-decoration: none;
+}
+
+.footer-social a {
+  font-size: 26px;
+  margin-right: 15px;
+  color: #fff;
+}
+
+.footer-social a:hover {
+  color: var(--laranja);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  font-size: 14px;
+}
 
 
 }
